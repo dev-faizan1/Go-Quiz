@@ -44,7 +44,7 @@ class _QuizPageState extends State<QuizPage> {
     setState(() {
       //quizBrain.isFinished();
       if (quizBrain.isFinished() == true) {
-        Alert(context: context, title: "RFLUTTER", desc: "Flutter is awesome.")
+        Alert(context: context, title: "Wooh!!", desc: "Quiz Ended")
             .show();
         quizBrain.resetQuiz();
         scoreList = [];

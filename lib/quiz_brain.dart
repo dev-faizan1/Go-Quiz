@@ -1,7 +1,4 @@
 import 'dart:developer';
-
-import 'package:go_quiz/main.dart';
-
 import 'question.dart';
 
 class QuizBrain {
